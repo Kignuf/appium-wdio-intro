@@ -1,0 +1,3 @@
+// Find the launchable activity
+./aapt dump badging <file.apk> // https://stackoverflow.com/questions/12698814/get-launchable-activity-name-of-package-from-adb
+aapt is available at ~/Library/Android/sdk/build-tools/27.0.1
