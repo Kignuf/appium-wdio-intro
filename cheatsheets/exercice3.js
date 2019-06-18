@@ -16,7 +16,7 @@ describe('Exercice 3', function() {
 	it('Can open settings app', function() {
 		// android
 		// adb shell dumpsys window windows | grep -E 'mCurrentFocus'
-		driver.startActivity('com.google.android.apps.maps', 'com.google.android.maps.MapsActivity')
+		driver.startActivity('com.android.settings', 'com.android.settings.Settings')
 		driver.pause(3000)
 
 		// ios
