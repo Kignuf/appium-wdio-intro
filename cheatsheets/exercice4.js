@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-// https://webdriver.io/docs/api/appium.html
+// https://webdriver.io/docs/api/mjsonwp.html
 describe('Exercice 4', function() {
 	it('Can deal with webviews', function() {
 		// open webview
